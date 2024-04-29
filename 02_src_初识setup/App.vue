@@ -30,7 +30,7 @@ export default {
       this.sayHello();
     }
   },
-  setup(){
+  setup(){//`setup` 是一个特殊的钩子，专门用于组合式 API。
     //表演的舞台
     //准备数据 data
     let name = 'py';
